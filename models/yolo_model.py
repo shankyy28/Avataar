@@ -11,6 +11,3 @@ def import_yolo():
     yolo = YOLO(YOLO_MODEL_PATH)
     
     return yolo
-
-if __name__ == "main":
-    import_yolo()

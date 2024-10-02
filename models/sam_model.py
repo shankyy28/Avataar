@@ -14,6 +14,3 @@ def import_sam():
     sam = sam_model_registry[model_type](checkpoint=sam_checkpoint)
 
     return sam
-
-if __name__ == "main":
-    import_sam()
