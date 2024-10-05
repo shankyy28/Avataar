@@ -1,6 +1,6 @@
 from parse_input import parse_input
 from create_mask import create_mask
-from view_rotation import view_rotation
+#from view_rotation import view_rotation
 
 def main():
     # Fetching the inputs
@@ -10,7 +10,7 @@ def main():
                                    class_name = class_name,
                                    output_image_path = output_image_path)
     
-    view_rotation(image_bgr, masks, azimuth, polar)
+    #view_rotation(image_bgr, masks, azimuth, polar)
     
 if __name__ == "__main__":
     main()
