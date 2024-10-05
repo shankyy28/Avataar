@@ -52,12 +52,16 @@ python run.py --input_image.jpg --class "chair" --azimuth +10 --polar -5 --outpu
 - `create_mask.py`: Contains functions for object segmentation
 - `view_rotation.py`: Will handle pose editing
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
 ## Acknowledgements
 
 - YOLO (You Only Look Once) for object detection
 - SAM (Segment Anything Model) for image segmentation
+
+## Input_image
+
+- ![chair](https://github.com/user-attachments/assets/70afe8bd-eb73-49d5-9d18-0aa662bba41c)
+
+## Red Masked output
+
+- ![generated](https://github.com/user-attachments/assets/dbe58860-2a1d-4817-b2f9-e65e4a007cdb)
 
